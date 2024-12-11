@@ -167,3 +167,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
 ]
+
+# AUTH_USER_MODEL = 'account.Uer
+# # Add this at the end of the file
+AUTH_USER_MODEL = 'account.User'
